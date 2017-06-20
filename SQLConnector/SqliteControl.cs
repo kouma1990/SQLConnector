@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Xamarin.Forms;
 using SQLite.Net;
 
 namespace SQLConnector
 {
-    class SqliteControl
+    public class SqliteControl
     {
         static readonly object wObject = new object();
         readonly SQLiteConnection wSQLiteConnection;
